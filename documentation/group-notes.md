@@ -1,6 +1,6 @@
-# Group Notes
+# Group Notes — Defining Tipping Points and Transformation
 
-Use this shared notebook to capture meeting highlights, decisions, and follow-up tasks.
+Use this shared notebook to capture meeting highlights, decisions, and follow-up tasks for Innovation Summit 2025 Group 1.
 
 - Summarize key takeaways after each working session.
 - Note data sources, analysis ideas, and open questions.
