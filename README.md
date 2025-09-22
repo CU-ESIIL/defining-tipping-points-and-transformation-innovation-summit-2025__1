@@ -1,12 +1,12 @@
-# Project Group OASIS — Starter Website & README Kit
+# Defining Tipping Points and Transformation — Innovation Summit 2025 Starter Kit
 
-This guide is written for people who may be brand new to GitHub. It will show you, step by step, how to use this repository as both:
+This guide is written for the Innovation Summit 2025 cohort—specifically **Group 1: Defining Tipping Points and Transformation**. It assumes some teammates are brand new to GitHub and walks through how to use this repository as both:
 
 1. A **website** to communicate your science to others.
 2. A **hub for sharing code** within your group.
 
 
-**Template users:** If you are using this repository as a template, start with [TEMPLATE_GUIDE.md](TEMPLATE_GUIDE.md) for the required name and link updates.
+**Template users:** If you copied this repository for another project, start with [TEMPLATE_GUIDE.md](TEMPLATE_GUIDE.md) for the required name and link updates.
 
 ---
 
@@ -46,11 +46,11 @@ The website is built from the `docs/` folder. Every time you change a file there
 
 ## 3) How to Share Code
 
-Code lives in the `src/` folder. You can put scripts, Jupyter notebooks, or R files here.
+Code lives in the `code/` folder. You can put scripts, Jupyter notebooks, or R files here.
 
 ### Step by Step
 
-1. In the repository, click the **src/** folder.
+1. In the repository, click the **code/** folder.
 2. Click **Add file → Upload files** (to add something from your computer), or **Create new file**.
 3. Name your file something clear, like `data_cleaning.py` or `fire_analysis.R`.
 4. At the top of the file, write a short comment about what the code does.
@@ -88,7 +88,7 @@ Now your teammates can see and use your code.
 
 1. Edit the `docs/index.md` file and add your project description.
 2. Add yourself to the `docs/team.md` page.
-3. Upload your first code file to the `src/` folder.
+3. Upload your first code file to the `code/` folder.
 4. Refresh your website link and see your changes live.
 
 Congratulations — you’re now using GitHub to communicate your science and share code!
@@ -113,8 +113,8 @@ Congratulations — you’re now using GitHub to communicate your science and sh
 
 ### Step 2 — Open the project home
 
-1. Visit your repository link (it looks like `https://github.com/ORG/Project_group_OASIS`).
-2. You’ll see folders like `docs/`, `src/`, and files like `README.md`.
+1. Visit your repository link (for this project: `https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1`).
+2. You’ll see folders like `docs/`, `code/`, and files like `README.md`.
 
 **Why this matters:** This is the “front door” to your project’s files.
 
@@ -165,10 +165,10 @@ Congratulations — you’re now using GitHub to communicate your science and sh
 
 ### Step 8 — Share code with the team
 
-1. Open the `src/` folder → **Add file** → upload a script or create a new file.
+1. Open the `code/` folder → **Add file** → upload a script or create a new file.
 2. At the top of the file, write 2–3 lines that explain what it does, inputs, and outputs.
 3. Commit changes.
-4. In `docs/code.md`, add a short bullet linking to your file, e.g. `- src/pipeline.py — end-to-end pipeline` and commit.
+4. In `docs/code.md`, add a short bullet linking to your file, e.g. `- code/pipeline.py — end-to-end pipeline` and commit.
 
 **Why this matters:** The website becomes a clear map that points to your working code.
 
@@ -190,11 +190,11 @@ Congratulations — you’re now using GitHub to communicate your science and sh
 
 ## Quick‑start checklist (printable)
 
-* [ ] I can open the repo and see `docs/`, `src/`, and `README.md`.
+* [ ] I can open the repo and see `docs/`, `code/`, and `README.md`.
 * [ ] Pages is enabled: **main** + **/docs**.
 * [ ] I edited `docs/index.md` and committed changes.
 * [ ] I can open the public site link and see my edits.
-* [ ] I added or uploaded one script to `src/`.
+* [ ] I added or uploaded one script to `code/`.
 * [ ] I linked that script from `docs/code.md`.
 * [ ] I posted one dated entry in `docs/updates.md`.
 
