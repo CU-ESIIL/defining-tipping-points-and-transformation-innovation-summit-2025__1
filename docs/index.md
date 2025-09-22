@@ -11,7 +11,7 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 
 **One sentence on impact:** In three days we will map early warning signals of socio-ecological tipping points so partners can chart resilient transformation pathways.
 
-**[Read the brief](#) · [View code](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/tree/main/code) · [Explore data](data.md)**
+**[Read the brief](assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf) · [View code](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/code/prism_quicklook.py) · [Explore data](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/code/prism_quicklook.py)**
 
 > **About this site:** This public log captures our Innovation Summit 2025 sprint. Edit any page in your browser → pencil icon → Commit changes. Keep updates short, visual, and decision-oriented.
 
@@ -143,13 +143,13 @@ Explain how clarifying tipping points unlocks better decisions, investments, or 
 <table>
 <tr>
 <td align="center" width="33%">
-  <a href="#"><img src="assets/button_brief.gif" alt="Project brief PDF" width="240"><br><strong>Read the brief</strong></a>
+  <a href="assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf"><img src="assets/button_brief.gif" alt="Project brief PDF" width="240"><br><strong>Read the brief</strong></a>
 </td>
 <td align="center" width="33%">
-  <a href="https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/tree/main/code"><img src="assets/button_code.gif" alt="View shared code" width="240"><br><strong>View code</strong></a>
+  <a href="https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/code/prism_quicklook.py"><img src="assets/button_code.gif" alt="View shared code" width="240"><br><strong>View code</strong></a>
 </td>
 <td align="center" width="33%">
-  <a href="data.md"><img src="assets/button_data.gif" alt="Explore data" width="240"><br><strong>Explore data</strong></a>
+  <a href="https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/code/prism_quicklook.py"><img src="assets/button_data.gif" alt="Explore data" width="240"><br><strong>Explore data</strong></a>
 </td>
 </tr>
 </table>
