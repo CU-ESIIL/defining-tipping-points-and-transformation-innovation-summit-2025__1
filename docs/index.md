@@ -11,7 +11,7 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 
 **One sentence on impact:** In three days we will map early warning signals of socio-ecological tipping points so partners can chart resilient transformation pathways.
 
-**[Project brief (PDF)](#) · [View shared code](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/tree/main/code) · [Data & access](data.md)**
+**[Read the brief](#) · [View code](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/tree/main/code) · [Explore data](data.md)**
 
 > **About this site:** This public log captures our Innovation Summit 2025 sprint. Edit any page in your browser → pencil icon → Commit changes. Keep updates short, visual, and decision-oriented.
 
