@@ -1,4 +1,4 @@
-# Defining Tipping Points and Transformation
+# Mni Awanka (watching over water)
 
 <p style="text-align: right;"><a href="https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/edit/main/docs/index.md" title="Edit this page">✏️</a></p>
 
@@ -29,6 +29,8 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 
 ### Our product 📣
 - What rapid deliverable (brief, prototype, dashboard, etc.) will communicate our findings on tipping points and transformation?
+
+Our goal is to work towards a dashboard on water quality in Sicangu Makoce (Rosebud Reservation) which can be used for water quality monitoring and indigenous rights, particularly regarding the increasing cancer rates. 
 
 ### Our question(s) 📣
 - Which socio-ecological system(s) are we focusing on and why?
