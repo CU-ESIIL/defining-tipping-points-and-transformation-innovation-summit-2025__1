@@ -40,7 +40,7 @@ Our goal is to work towards a dashboard on water quality in Sicangu Makoce (Rose
 
 Questions:
 - What health hazardous (e.g. cancer causing) chemicals are present in the surface and sub surface water in the Fort Laramie Treaty boundaries 1868 & 1851 (North and South Dokota, Nebraska, Wayoming, Montana)?
-- How can we make a platform to ensure this data is accessible and usable for tribal nations for remeady, health-environmental justice, and education?
+- How can we make a platform to ensure this data is accessible and usable for tribal nations for remeady, health-environmental justice, and education? (incl what your federal rights are)
 
 Overarching questions:
 - What causes the fluctuation of the chemical consentrations?
