@@ -6,10 +6,10 @@
 HERO (Swap hero.jpg, title, strapline, and the three links)
 ========================================================= -->
 
-![Wide banner of the study system](assets/hero.jpg)
-[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/hero.jpg)
+![Wide banner of the study system](assets/River_image.jpg)
+[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/River_image.jpg)
 
-**One sentence on impact:** In three days we will map early warning signals of socio-ecological tipping points so partners can chart resilient transformation pathways.
+**One sentence on impact:** In three days we will lay the foundations of a data platform of the Fort Laramie Treaty boundaries 1868 & 1851 area (North and South Dokota, Nebraska, Wayoming, Montana) for health and environmental justice and education. 
 
 **[Read the brief](assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf) · [View code](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/code/prism_quicklook.py) · [Explore data](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/code/prism_quicklook.py)**
 
