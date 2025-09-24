@@ -28,60 +28,65 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 *Focus: shared context, tipping point hypotheses, and team alignment. Add at least one real visual (whiteboard, map, or notes snapshot).* 
 
 ### Our product 📣
-- What rapid deliverable (brief, prototype, dashboard, etc.) will communicate our findings on tipping points and transformation?
+- What product do you want to create as a team?
 
 Our goal is to work towards a dashboard on water quality in Sicangu Makoce (Rosebud Reservation) which can be used for water quality monitoring and indigenous rights, particularly regarding the increasing cancer rates. 
 
 ### Our question(s) 📣
-- Which socio-ecological system(s) are we focusing on and why?
-- Where do we suspect tipping points are emerging?
-- Who is impacted by crossing (or avoiding) those thresholds?
+<!-- EDIT: Replace bullets with your own. Encourage divergent takes. -->
+- What are we trying to understand or change?
+- Why now? Why here?
+- Who benefits if we succeed?
 
-### Working hypotheses / intentions 📣
-- We think that … (tie to signals of change)
-- We intend to test whether … (data-driven angle)
-- We will know we’re onto something if … (signal for success)
+### Hypotheses / intentions [Optional: probably not relevant if you are creating an educational tool]
+<!-- EDIT: Plain language, short and honest. -->
+- We think that …
+- We intend to test whether …
+- We will know we’re onto something if …
 
-### Why this matters (the “so what”) 📣
-Explain how clarifying tipping points unlocks better decisions, investments, or community actions.
+### Why this matters (the “upshot”) 📣
+<!-- EDIT: 2–3 sentences max, decision-oriented. -->
+Explain who is impacted and how this could change decisions or understanding.
 
 ### Inspirations (papers, datasets, tools)
-- Publication: [Add the seminal tipping point or transformation reference](https://doi.org/xxxx)
-- Dataset portal: [Add relevant monitoring or socio-economic data source](https://example.org)
-- Tool/tech: [Model, indicator, or visualization approach](https://example.org)
-
+<!-- EDIT: Swap in your own links. -->
+- Publication: [Influential paper title](https://doi.org/xxxx)
+- Dataset portal: [Example data hub](https://example.org)
+- Tool/tech: [Method or library](https://example.org)
+  
 ### Field notes / visuals
 ![Whiteboard brainstorm (replace this)](assets/day1_whiteboard.jpg)
 [Raw photo location: day1_whiteboard.jpg](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/day1_whiteboard.jpg)
 *Caption: Capture what the sketch shows and how it guides the next step.*
 
-> **Different perspectives:** Summarize any divergent views or open debates—they often reveal critical assumptions about transformation pathways.
-
+> **Different perspectives:** Briefly capture disagreements or alternate framings. These can unlock innovation.
 ---
 
 ## Day 2 — Data, indicators & prototyping
-*Focus: compile datasets, build first metrics/visuals, and document what works. Aim for at least one prototype figure or interaction.*
+*Focus: what we’re testing and building; show a first visual (plot/map/screenshot/GIF).*
 
 ### Data sources we’re exploring 📣
-- **Source A** — link, coverage, why it matters for tipping points
+<!-- EDIT: Link each source; add size/notes if relevant. -->
+- **Source A**
   
   ![Pattern revealed during exploration](assets/explore_data_plot.png)
   [Raw photo location: explore_data_plot.png](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/explore_data_plot.png)
   *Snapshot showing an emerging pattern or early warning signal.*
 
-- **Source B** — link and concise description (e.g., social feedbacks, policy triggers)
-
+- Source B — link and 1-line description
+  
 ### Methods / technologies we’re testing 📣
-- Indicator or model approach (e.g., resilience metrics, change point analysis)
-- Analytical workflow (e.g., Python/R notebooks, dashboards, remote sensing pipelines)
-- Visualization concept (e.g., threshold timeline, network diagram, scenario storyboard)
+- Approach 1 (e.g., time-series break detection)
+- Approach 2 (e.g., random forest on features)
+- Visualization (e.g., map tiles, small multiples)
 
 ### Challenges identified
-- Data gaps, lags, or quality issues
-- Analytical hurdles or compute constraints
-- Key assumptions that need validation with stakeholders
+- Data gaps / quality issues
+- Method limitations / compute constraints
+- Open questions we need to decide on
 
 ### Visuals
+<!-- EDIT: Swap examples; keep file sizes modest. -->
 #### Static figure
 ![Emerging change signal](assets/figure1.png)
 [Raw photo location: figure1.png](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/figure1.png)
@@ -104,28 +109,29 @@ Explain how clarifying tipping points unlocks better decisions, investments, or 
 ---
 
 ## Final Share Out — Insights & transformation pathways
-*Focus: synthesize the story. Select visuals that explain tipping points, who is affected, and recommended actions. Rehearse a 2-minute walkthrough: Why → Questions → Data → Findings → Next.*
+*Focus: synthesis; highlight 2–3 visuals that tell the story; keep text crisp. Practice a 2-minute walkthrough of the homepage 📣: Why → Questions → Data/Methods → Findings → Next.*
 
 ![Team photo at start of Day 3](assets/team_photo.jpg)
 [Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/team_photo.jpg)
 
 ### Findings at a glance 📣
-- Headline 1 — key tipping point or threshold identified (quantify if possible)
-- Headline 2 — implication for transformation (policy, practice, community)
-- Headline 3 — confidence level or uncertainty needing follow-up
+<!-- EDIT: 2–4 bullets, each a headline in plain language with a number if possible. -->
+- Headline 1 — what, where, how much
+- Headline 2 — change/trend/contrast
+- Headline 3 — implication for practice or policy
 
 ### Visuals that tell the story 📣
 ![Primary insight visual placeholder](assets/fire_hull.png)
 [Raw photo location: fire_hull.png](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/fire_hull.png)
-*Visual 1.* Core message about tipping points or resilience.
+*Visual 1.* Swap in the primary graphic that clearly communicates your core takeaway.
 
 ![Supporting panels for key insights](assets/hull_panels.png)
 [Raw photo location: hull_panels.png](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/hull_panels.png)
-*Visual 2.* Comparative evidence, scenario contrasts, or stakeholder narratives.
+*Visual 2.* Use a complementary panel, collage, or set of snapshots that reinforces supporting evidence.
 
 ![Complementary result figure placeholder](assets/main_result.png)
 [Raw photo location: main_result.png](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/main_result.png)
-*Visual 3.* Additional indicator or next-step experiment.
+*Visual 3.* Highlight an additional visual that captures a secondary insight or next step.
 
 <iframe
   title="Short explainer video (optional)"
@@ -135,9 +141,9 @@ Explain how clarifying tipping points unlocks better decisions, investments, or 
   allowfullscreen></iframe>
 
 ### What’s next? 📣
-- Immediate follow-ups for this team
-- What we would pursue with one more week/month
-- Key partners or audiences who should see the work next
+- Immediate follow-ups
+- What we would do with one more week/month
+- Who should see this next
 
 ---
 
@@ -161,10 +167,8 @@ Explain how clarifying tipping points unlocks better decisions, investments, or 
 ## Team
 | Name | Role | Contact | GitHub |
 |------|------|---------|--------|
-| _Add name_ | Lead / Coordination | email@example.org | @github-handle |
-| _Add name_ | Data / Indicators | email@example.org | @github-handle |
-| _Add name_ | Methods / Modeling | email@example.org | @github-handle |
-| _Add name_ | Communications / Storytelling | email@example.org | @github-handle |
+| Jane Doe | Lead | jane.doe@example.org | @janedoe |
+| John Smith | Analyst | john.smith@example.org | @jsmith |
 
 ---
 
