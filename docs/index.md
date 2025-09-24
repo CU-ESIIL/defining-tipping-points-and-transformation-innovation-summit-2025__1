@@ -38,11 +38,13 @@ Our goal is to work towards a dashboard on water quality in Sicangu Makoce (Rose
 - Why now? Why here?
 - Who benefits if we succeed?
 
-### Hypotheses / intentions [Optional: probably not relevant if you are creating an educational tool]
-<!-- EDIT: Plain language, short and honest. -->
-- We think that …
-- We intend to test whether …
-- We will know we’re onto something if …
+Questions:
+- What health hazardous (e.g. cancer causing) chemicals are present in the surface and sub surface water in the Fort Laramie Treaty boundaries 1868 & 1851 (North and South Dokota, Nebraska, Wayoming, Montana)?
+- How can we make a platform to ensure this data is accessible and usable for tribal nations for remeady, health-environmental justice, and education?
+
+Overarching questions:
+- What causes the fluctuation of the chemical consentrations?
+- What data is missing (and could be aquired through citizen science/sensors)?
 
 ### Why this matters (the “upshot”) 📣
 <!-- EDIT: 2–3 sentences max, decision-oriented. -->
@@ -50,9 +52,7 @@ Explain who is impacted and how this could change decisions or understanding.
 
 ### Inspirations (papers, datasets, tools)
 <!-- EDIT: Swap in your own links. -->
-- Publication: [Influential paper title](https://doi.org/xxxx)
-- Dataset portal: [Example data hub](https://example.org)
-- Tool/tech: [Method or library](https://example.org)
+- 
   
 ### Field notes / visuals
 ![Whiteboard brainstorm (replace this)](assets/day1_whiteboard.jpg)
