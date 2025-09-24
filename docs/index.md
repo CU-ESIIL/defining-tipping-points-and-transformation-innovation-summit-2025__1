@@ -8,44 +8,27 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 
 ![Wide banner of the study system](assets/River_image.jpg)
 
-**One sentence on impact:** 
-As part of the XXX group, Mni Awanka aims to develop a platform where the indigenous peoples of the Fort Laramie Treaty boundaries 1868 & 1851 area (North and South Dokota, Nebraska, Wayoming, Montana) can access water quality data for remeady, health and environmental justice, and education. 
+**Impact:** 
+As part of the XXX group, Mni Awanka aims to develop a platform where the indigenous peoples of the Fort Laramie Treaty boundaries 1868 & 1851 area (North and South Dokota, Nebraska, Wyoming, Montana) can access water quality data for remeady, health and environmental justice, and education. 
 
 **Overview**
-The XXX group came together based on a mutual interest for indigenous approaches to environmental crises and collaborative action to replace colinizing hegemonic responses. The teams mission is societal transformation (incl. finding new decolonizing models, inherent soverenty, rights, and ...   
+The XXX group came together based on a mutual interest for indigenous approaches to environmental crises and collaborative action to replace colonizing hegemonic responses. The teams mission is societal transformation (incl. finding new decolonizing models, inherent soverenty, rights, and equitable decision making). Our sub-groups are on education (Wounspé), on building a large language model (LLM) for easier access to environmental assessment reports (He Sapa Makiyuta), and on accessibility of water quality data (Mni Awanka).  
 
 **[Read the brief](assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf) · [View code](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/code/prism_quicklook.py) · [Explore data](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/code/prism_quicklook.py)**
-
-> **About this site:** This public log captures our Innovation Summit 2025 sprint. Edit any page in your browser → pencil icon → Commit changes. Keep updates short, visual, and decision-oriented.
-
----
-
-## How to use this page (for the team)
-- **Edit this file:** `docs/index.md` → ✎ → change text → **Commit changes**.
-- **Add images:** upload to `docs/assets/` and reference them like `assets/your_file.png`.
-- **Prioritize clarity:** favor short captions, bold headlines, and 2–3 visuals per section.
 
 ---
 
 ## Day 1 — Define the system & opportunities
-*Focus: shared context, tipping point hypotheses, and team alignment. Add at least one real visual (whiteboard, map, or notes snapshot).* 
 
 ### Our product 📣
-- What product do you want to create as a team?
-
-Our goal is to work towards a dashboard on water quality in Sicangu Makoce (Rosebud Reservation) which can be used for water quality monitoring and indigenous rights, particularly regarding the increasing cancer rates. 
+The goal of Mni Awanka is to work towards a dashboard on water quality in Sicangu Makoce (Rosebud Reservation), and the Fort Laramie Treaty boundaries 1868 & 1851 area (North and South Dokota, Nebraska, Wyoming, Montana). The aim of this dashbord is to facilitate access to water quality data for remeady, health and environmental justice, and education. 
 
 ### Our question(s) 📣
-<!-- EDIT: Replace bullets with your own. Encourage divergent takes. -->
-- What are we trying to understand or change?
-- Why now? Why here?
-- Who benefits if we succeed?
-
-Questions:
-- What health hazardous (e.g. cancer causing) chemicals are present in the surface and sub surface water in the Fort Laramie Treaty boundaries 1868 & 1851 (North and South Dokota, Nebraska, Wayoming, Montana)?
+*Questions for the dashboard:*
+- What health hazardous (e.g. cancer causing) chemicals are present in the surface and sub surface water in the Fort Laramie Treaty boundaries 1868 & 1851 (North and South Dokota, Nebraska, Wyoming, Montana)?
 - How can we make a platform to ensure this data is accessible and usable for tribal nations for remeady, health-environmental justice, and education? (incl what your federal rights are)
 
-Overarching questions:
+*Overarching questions:*
 - What causes the fluctuation of the chemical consentrations?
 - What data is missing (and could be aquired through citizen science/sensors)?
 
