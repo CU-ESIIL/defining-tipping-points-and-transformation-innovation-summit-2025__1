@@ -7,9 +7,12 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 ========================================================= -->
 
 ![Wide banner of the study system](assets/River_image.jpg)
-[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/River_image.jpg)
 
-**One sentence on impact:** In three days we will lay the foundations of a data platform of the Fort Laramie Treaty boundaries 1868 & 1851 area (North and South Dokota, Nebraska, Wayoming, Montana) for health and environmental justice and education. 
+**One sentence on impact:** 
+As part of the XXX group, Mni Awanka aims to develop a platform where the indigenous peoples of the Fort Laramie Treaty boundaries 1868 & 1851 area (North and South Dokota, Nebraska, Wayoming, Montana) can access water quality data for remeady, health and environmental justice, and education. 
+
+**Overview**
+The XXX group came together based on a mutual interest for indigenous approaches to environmental crises and collaborative action to replace colinizing hegemonic responses. The teams mission is societal transformation (incl. finding new decolonizing models, inherent soverenty, rights, and ...   
 
 **[Read the brief](assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf) · [View code](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/code/prism_quicklook.py) · [Explore data](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/code/prism_quicklook.py)**
 
