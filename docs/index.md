@@ -47,14 +47,14 @@ We are looking into two approaches. The data driven approach and the simulation 
 - **Simulation Approach:** For this approach we plan to build a simulation model of the Msuri river and potential pollution sources. Here the decision maker can play around with various polution scenarios and query what the drivers could be of the actural measured polution.
   
 #### Preliminary results
-[Open Simulartion Demo Tool](https://chatgpt.com/canvas/shared/68d4b8c79ff08191ba99fce6908c2cc9)  
+[Open Simulation Demo Tool](https://chatgpt.com/canvas/shared/68d4b8c79ff08191ba99fce6908c2cc9)  
 
 ## Final Share Out — Insights & transformation pathways
 
 ![Team photo at start of Day 3](assets/team_photo.jpg)
-[Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/team_photo.jpg)
+[Nopasi Pazo team_photo.jpg](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/team_photo.jpg)
 
-### What’s next? 📣
+### What’s next for Mni Awanka? 📣
 - Formalize Nopasi Pazo working group
 - Strengthen Simulation Tool
 - Develop geo-database query tool
@@ -62,14 +62,20 @@ We are looking into two approaches. The data driven approach and the simulation 
 
 ---
 
-## Team
+## Nopasi Pazo Team
 | Name | Role | Contact | GitHub |
 |------|------|---------|--------|
 | Phil Two Eagle | Team Member Mni Awanka| pd2eagle@gmail.com | @XXX |
 | Wai Allen | Team Member Mni Awanka| wai.allen@asu.edu | @XXX |
 | Barth Robinson | Team Member Mni Awanka| BFROBIN@HOTMAIL.COM | @XXX |
 | Esmee Mulder | Team Member Mni Awanka| esmee.mulder@colorado.edu | @e-mulder |
-
+| Sierra Hicks | Team Member Wounspé| sh2337@cornell.edu | @XXX |
+| Jennifer Martel | Team Member Wounspé| jennifer.martel@petaomniciye.org | @XXX |
+| Daryl Jones | Team Member Wounspé| daryljones16@gmail.com | @XXX |
+| Bob Newman | Team Member Wounspéa| robert.newman@und.edu | @XXX |
+| Keiko Nomura | Team Member He Sapa Makiyuta| Keiko.Nomura@colorado.edu | @XXX |
+| Alicia Swimmer | Team Member He Sapa Makiyuta| aliciaswimmer@gmail.com | @XXX |
+| Sylwia Zieba | Team Member He Sapa Makiyuta| sylwia.zieba@outlook.com | @XXX |
 ---
 
 ## Storage
