@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>River Basin Pollution Demo</title>
+  <style>
+    body{margin:0;font-family:sans-serif;background:#f8fafc;color:#0f172a}
+    header{padding:16px;background:#075985;color:#f0f9ff}
+    h1{margin:0;font-size:20px}
+    .container{padding:16px;max-width:1200px;margin:0 auto}
+    .grid{display:grid;grid-template-columns:1fr 2fr;gap:16px}
+    canvas{background:#e0f2fe;border-radius:8px;width:100%;height:500px;display:block}
+    form{display:grid;gap:8px;margin-bottom:20px}
+    label{font-size:13px;font-weight:600}
+    input,select,button{padding:8px;border-radius:6px;border:1px solid #cbd5e1}
+    button{background:#0284c7;color:#fff;font-weight:600;cursor:pointer;border:none}
+    button:hover{background:#0369a1}
+    table{width:100%;border-collapse:collapse;margin-top:10px;font-size:13px}
+    th,td{border:1px solid #cbd5e1;padding:4px;text-align:center}
+    th{background:#f1f5f9}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>River Basin Pollution Demo</h1>
+    <p style="margin:4px 0 0;font-size:14px">Add point sources of pollution, edit discharges, and adjust a global decay rate to see downstream water quality with dilution and decay.</p>
+  </header>
+  <div class="container grid">
+    <div>
+      <h2>Add Pollution Source</h2>
+      <form id="pollutionForm">
+        <div>
+          <label for="river">River segment</label>
+          <select id="river" required></select>
+        </div>
+        <div>
+          <label for="load">Pollutant load (mg/s)</label>
+          <input type="number" id="load" min="0" step="0.1" required />
+        </div>
+        <button type="submit">Add Source</button>
+      </form>
+      <h2>Edit River Properties</h2>
+      <table id="riverTable">
+        <thead><tr><th>Segment</th><th>Flow (m³/s)</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <h2>Global Decay Rate</h2>
+      <input type="number" id="decayRate" value="0.001" step="0.0001" min="0"> /s
+    </div>
+    <div>
+      <h2>River Basin</h2>
+      <canvas id="riverCanvas"></canvas>
+    </div>
+  </div>
+  <div class="container">
+    <h2>Water Quality Output</h2>
+    <canvas id="chartCanvas"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const canvas=document.getElementById('riverCanvas')
+    const ctx=canvas.getContext('2d')
+    canvas.width=canvas.offsetWidth
+    canvas.height=canvas.offsetHeight
+
+    // Define basin network with discharge (m3/s)
+    const rivers={
+      H:{x:80,y:80,label:'H (Headwaters)',flow:10},
+      A:{x:200,y:100,label:'A',flow:20},
+      B:{x:200,y:200,label:'B',flow:15},
+      C:{x:350,y:150,label:'C',flow:25},
+      D:{x:350,y:280,label:'D',flow:18},
+      E:{x:500,y:180,label:'E',flow:30},
+      F:{x:500,y:320,label:'F',flow:22},
+      G:{x:700,y:250,label:'G (Mainstem)',flow:50}
+    }
+
+    const edges=[
+      ['H','A'],['H','B'],['A','C'],['B','C'],['B','D'],['C','E'],['D','F'],['E','G'],['F','G']
+    ]
+
+    let globalDecay=0.001
+    document.getElementById('decayRate').addEventListener('input',e=>{
+      globalDecay=parseFloat(e.target.value)
+      updateChart()
+    })
+
+    const pollutionSources=[]
+
+    function drawNetwork(){
+      ctx.clearRect(0,0,canvas.width,canvas.height)
+      ctx.strokeStyle='#0284c7';ctx.lineWidth=6
+      for(const [from,to] of edges){
+        ctx.beginPath()
+        ctx.moveTo(rivers[from].x,rivers[from].y)
+        ctx.lineTo(rivers[to].x,rivers[to].y)
+        ctx.stroke()
+      }
+      for(const r of Object.values(rivers)){
+        ctx.fillStyle='#0ea5e9';ctx.beginPath();ctx.arc(r.x,r.y,14,0,2*Math.PI);ctx.fill()
+        ctx.fillStyle='#fff';ctx.font='11px sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(r.label.split(' ')[0],r.x,r.y)
+      }
+      for(const src of pollutionSources){
+        const r=rivers[src.river]
+        ctx.fillStyle='red';ctx.beginPath();ctx.arc(r.x+20,r.y-20,8,0,2*Math.PI);ctx.fill()
+      }
+    }
+
+    function computeQuality(){
+      const loads={};
+      const flows={};
+      for(const k of Object.keys(rivers)){
+        loads[k]=0;
+        flows[k]=rivers[k].flow;
+      }
+      for(const src of pollutionSources){
+        loads[src.river]+=src.load;
+      }
+      const adj={}
+      for(const [f,t] of edges){
+        if(!adj[f]) adj[f]=[]
+        adj[f].push(t)
+      }
+      function dfs(node){
+        if(!adj[node]) return
+        for(const to of adj[node]){
+          // Apply decay: exponential decay with travel time approximated as 1s per link
+          const decayedLoad=loads[node]*Math.exp(-globalDecay*1)
+          loads[to]+=decayedLoad
+          flows[to]+=flows[node]
+          dfs(to)
+        }
+      }
+      dfs('H')
+      return Object.fromEntries(Object.keys(rivers).map(k=>[k,loads[k]/flows[k]||0]))
+    }
+
+    // Populate dropdown
+    const riverSelect=document.getElementById('river')
+    for(const k of Object.keys(rivers)){
+      const opt=document.createElement('option')
+      opt.value=k
+      opt.textContent=`${k}: ${rivers[k].label}`
+      riverSelect.appendChild(opt)
+    }
+
+    // Create editable river table
+    const tbody=document.querySelector('#riverTable tbody')
+    function renderTable(){
+      tbody.innerHTML=''
+      for(const k of Object.keys(rivers)){
+        const r=rivers[k]
+        const tr=document.createElement('tr')
+        tr.innerHTML=`<td>${k}</td>
+          <td><input type="number" data-type="flow" data-key="${k}" value="${r.flow}" step="1" min="0"></td>`
+        tbody.appendChild(tr)
+      }
+    }
+    renderTable()
+
+    tbody.addEventListener('input',e=>{
+      const key=e.target.getAttribute('data-key')
+      const type=e.target.getAttribute('data-type')
+      const val=parseFloat(e.target.value)
+      if(type==='flow') rivers[key].flow=val
+      updateChart()
+    })
+
+    const chartCtx=document.getElementById('chartCanvas').getContext('2d')
+    const chart=new Chart(chartCtx,{
+      type:'bar',
+      data:{labels:Object.keys(rivers),datasets:[{label:'Concentration (mg/L)',data:[],backgroundColor:'#ef4444'}]},
+      options:{scales:{y:{beginAtZero:true}}}
+    })
+
+    function updateChart(){
+      const conc=computeQuality()
+      chart.data.labels=Object.keys(rivers)
+      chart.data.datasets[0].data=Object.keys(rivers).map(k=>conc[k])
+      chart.update()
+    }
+
+    document.getElementById('pollutionForm').addEventListener('submit',e=>{
+      e.preventDefault()
+      const river=riverSelect.value
+      const load=parseFloat(document.getElementById('load').value)
+      pollutionSources.push({river,load})
+      drawNetwork();updateChart()
+      e.target.reset()
+    })
+
+    drawNetwork();updateChart()
+  </script>
+</body>
+</html>
