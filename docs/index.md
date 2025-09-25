@@ -51,8 +51,8 @@ We are looking into two approaches. The data driven approach and the simulation 
 
 ## Final Share Out — Insights & transformation pathways
 
-![Team photo at start of Day 3](assets/team_photo.jpg)
-[Nopasi Pazo team_photo.jpg](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/team_photo.jpg)
+![Team photo at start of Day 3](assets/Group_Photo.jpg)
+[Nopasi Pazo team_photo.jpg](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/Group_Photo.jpg)
 
 ### What’s next for Mni Awanka? 📣
 - Formalize Nopasi Pazo working group
