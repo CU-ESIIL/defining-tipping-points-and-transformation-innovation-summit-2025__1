@@ -47,7 +47,7 @@ We are looking into two approaches. The data driven approach and the simulation 
 - **Simulation Approach:** For this approach we plan to build a simulation model of the Msuri river and potential pollution sources. Here the decision maker can play around with various polution scenarios and query what the drivers could be of the actural measured polution.
   
 #### Preliminary results
-[Open Simulartion Demo Tool](assets/water_quality_mini_db_self_contained_html.html)  
+[Open Simulartion Demo Tool](https://chatgpt.com/canvas/shared/68d4b8c79ff08191ba99fce6908c2cc9)  
 
 ## Final Share Out — Insights & transformation pathways
 *Focus: synthesis; highlight 2–3 visuals that tell the story; keep text crisp. Practice a 2-minute walkthrough of the homepage 📣: Why → Questions → Data/Methods → Findings → Next.*
