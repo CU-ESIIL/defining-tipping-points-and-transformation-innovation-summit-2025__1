@@ -14,6 +14,9 @@ As part of the Nopasi Pazo (showing your findings) group, Mni Awanka aims to dev
 **Overview**
 The Nopasi Pazo group came together based on a mutual interest for indigenous approaches to environmental crises and collaborative action to replace colonizing hegemonic responses. The teams mission is societal transformation (incl. finding new decolonizing models, inherent soverenty, rights, and equitable decision making). Our sub-groups are on education (Wounspé), on building a large language model (LLM) for easier access to environmental assessment reports (He Sapa Makiyuta), and on accessibility of water quality data (Mni Awanka).  
 
+![Whiteboard brainstorm (replace this)](assets/Working_Group_Approach.png)
+*The Nopasi Pazo Working Group*
+
 **[Read the brief](assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf) · [View code](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/code/prism_quicklook.py) · [Explore data](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/code/prism_quicklook.py)**
 
 ---
@@ -32,56 +35,18 @@ The goal of Mni Awanka is to work towards a dashboard on water quality in Sicang
 - What causes the fluctuation of the chemical consentrations?
 - What data is missing (and could be aquired through citizen science/sensors)?
 
-### Why this matters (the “upshot”) 📣
-<!-- EDIT: 2–3 sentences max, decision-oriented. -->
-Explain who is impacted and how this could change decisions or understanding.
-
-### Inspirations (papers, datasets, tools)
-<!-- EDIT: Swap in your own links. -->
-- 
-  
-### Field notes / visuals
-![Whiteboard brainstorm (replace this)](assets/day1_whiteboard.jpg)
-[Raw photo location: day1_whiteboard.jpg](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/day1_whiteboard.jpg)
-*Caption: Capture what the sketch shows and how it guides the next step.*
-
-> **Different perspectives:** Briefly capture disagreements or alternate framings. These can unlock innovation.
+> **Different perspectives:** 
+After some discussions and consultations we are thinking of working more with a river pollution simulation case as well as building a query model to work with the existing dashboards for easier decision making.
 ---
 
 ## Day 2 — Data, indicators & prototyping
-*Focus: what we’re testing and building; show a first visual (plot/map/screenshot/GIF).*
+We are looking into two approaches. The data driven approach and the simulation model approach.
 
-### Data sources we’re exploring 📣
-<!-- EDIT: Link each source; add size/notes if relevant. -->
-- **Source A**
+- **Data Driven Approach:** For this approach we plan to start with the dataset from [the Sicangu Climate Data Repository](https://sicangudata.org/?submit=Yes%2C+I+am+a+human&ishuman=yes) and develop a library which can be used to query the data for decision making.
+
+- **Simulation Approach:** For this approach we plan to build a simulation model of the Msuri river and potential pollution sources. Here the decision maker can play around with various polution scenarios and query what the drivers could be of the actural measured polution.
   
-  ![Pattern revealed during exploration](assets/explore_data_plot.png)
-  [Raw photo location: explore_data_plot.png](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/explore_data_plot.png)
-  *Snapshot showing an emerging pattern or early warning signal.*
 
-- Source B — link and 1-line description
-  
-### Methods / technologies we’re testing 📣
-- Approach 1 (e.g., time-series break detection)
-- Approach 2 (e.g., random forest on features)
-- Visualization (e.g., map tiles, small multiples)
-
-### Challenges identified
-- Data gaps / quality issues
-- Method limitations / compute constraints
-- Open questions we need to decide on
-
-### Visuals
-<!-- EDIT: Swap examples; keep file sizes modest. -->
-#### Static figure
-![Emerging change signal](assets/figure1.png)
-[Raw photo location: figure1.png](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/figure1.png)
-*Figure 1.* One sentence on what the indicator suggests.
-
-#### Animated change (GIF)
-![Temporal dynamics placeholder](assets/change.gif)
-[Raw photo location: change.gif](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/docs/assets/change.gif)
-*Figure 2.* Describe what shifts over time and how it informs transformation planning.
 
 #### Interactive map or dashboard (iframe)
 <iframe
