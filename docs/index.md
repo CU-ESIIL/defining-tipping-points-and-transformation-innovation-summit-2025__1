@@ -46,18 +46,8 @@ We are looking into two approaches. The data driven approach and the simulation 
 
 - **Simulation Approach:** For this approach we plan to build a simulation model of the Msuri river and potential pollution sources. Here the decision maker can play around with various polution scenarios and query what the drivers could be of the actural measured polution.
   
-
-
-#### Interactive map or dashboard (iframe)
-<iframe
-  title="Study area (OpenStreetMap)"
-  src="https://www.openstreetmap.org/export/embed.html?bbox=-105.35%2C39.90%2C-105.10%2C40.10&layer=mapnik&marker=40.000%2C-105.225"
-  width="100%" height="360" frameborder="0"></iframe>
-<p><a href="https://www.openstreetmap.org/?mlat=40.000&mlon=-105.225#map=12/40.0000/-105.2250">Open full map</a></p>
-
-> If an embed doesn’t load, include a direct link immediately below it.
-
----
+#### Preliminary results
+[Open Simulartion Demo Tool](assets/water_quality_mini_db_self_contained_html.html)  
 
 ## Final Share Out — Insights & transformation pathways
 *Focus: synthesis; highlight 2–3 visuals that tell the story; keep text crisp. Practice a 2-minute walkthrough of the homepage 📣: Why → Questions → Data/Methods → Findings → Next.*
