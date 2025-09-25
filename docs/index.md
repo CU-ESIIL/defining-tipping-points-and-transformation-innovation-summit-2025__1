@@ -9,10 +9,10 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 ![Wide banner of the study system](assets/River_image.jpg)
 
 **Impact:** 
-As part of the XXX group, Mni Awanka aims to develop a platform where the indigenous peoples of the Fort Laramie Treaty boundaries 1868 & 1851 area (North and South Dokota, Nebraska, Wyoming, Montana) can access water quality data for remeady, health and environmental justice, and education. 
+As part of the Nopasi Pazo (showing your findings) group, Mni Awanka aims to develop a platform where the indigenous peoples of the Fort Laramie Treaty boundaries 1868 & 1851 area (North and South Dokota, Nebraska, Wyoming, Montana) can access water quality data for remeady, health and environmental justice, and education. 
 
 **Overview**
-The XXX group came together based on a mutual interest for indigenous approaches to environmental crises and collaborative action to replace colonizing hegemonic responses. The teams mission is societal transformation (incl. finding new decolonizing models, inherent soverenty, rights, and equitable decision making). Our sub-groups are on education (Wounspé), on building a large language model (LLM) for easier access to environmental assessment reports (He Sapa Makiyuta), and on accessibility of water quality data (Mni Awanka).  
+The Nopasi Pazo group came together based on a mutual interest for indigenous approaches to environmental crises and collaborative action to replace colonizing hegemonic responses. The teams mission is societal transformation (incl. finding new decolonizing models, inherent soverenty, rights, and equitable decision making). Our sub-groups are on education (Wounspé), on building a large language model (LLM) for easier access to environmental assessment reports (He Sapa Makiyuta), and on accessibility of water quality data (Mni Awanka).  
 
 **[Read the brief](assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf) · [View code](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/code/prism_quicklook.py) · [Explore data](https://github.com/CU-ESIIL/defining-tipping-points-and-transformation-innovation-summit-2025__1/blob/main/code/prism_quicklook.py)**
 
